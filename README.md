@@ -18,8 +18,8 @@ Features
 
 Installation
 
-git clone https://github.com/your-username/math-visualizer.git
-cd math-visualizer
+git clone https://github.com/Mubashirshahhh/Numera.git
+cd Numera
 pip install -r requirements.txt
 
 Usage
