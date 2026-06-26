@@ -1,0 +1,6 @@
+{
+  "name": "Math Studio",
+  "description": "AI-powered mathematical animation studio that parses equations symbolically and synthesizes Manim educational visual animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

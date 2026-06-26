@@ -1,31 +1,21 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Math Visualizer
+# Run and deploy your AI Studio app
 
-An automated Manim pipeline for generating high-quality mathematical visualizations and animations.
+This contains everything you need to run your app locally.
 
-Overview
+View your app in AI Studio: https://ai.studio/apps/bc5088a0-b446-4c13-bd5e-65d28c7dcd1d
 
-Math Visualizer transforms mathematical concepts, equations, and problem-solving processes into engaging animated explanations using Manim. The goal is to make abstract mathematical ideas easier to understand through dynamic visual storytelling.
+## Run Locally
 
-Features
+**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
 
-- Automated Manim scene generation
-- LaTeX-based equation rendering
-- Step-by-step mathematical explanations
-- Customizable animation settings
-- High-quality video exports
-- Modular and extensible architecture
 
-Installation
-
-git clone https://github.com/Mubashirshahhh/Numera.git
-cd Numera
-pip install -r requirements.txt
-
-Usage
-
-Run the pipeline with:
-
-python main.py
-
-Configure input equations, concepts, and rendering settings as needed.
+1. Open Android Studio
+2. Select **Open** and choose the directory containing this project
+3. Allow Android Studio to fix any incompatibilities as it imports the project.
+4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
+5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
+6. Run the app on an emulator or physical device
