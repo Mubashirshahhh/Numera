@@ -1,0 +1,22 @@
+[
+  {
+    "equation": "x^2 - 4x + 3",
+    "problem_type": "polynomial",
+    "code": ""
+  },
+  {
+    "equation": "derivative of x^2",
+    "problem_type": "derivative",
+    "code": ""
+  },
+  {
+    "equation": "integral of x^2 from 0 to 2",
+    "problem_type": "integral",
+    "code": ""
+  },
+  {
+    "equation": "sin(x)",
+    "problem_type": "trigonometry",
+    "code": ""
+  }
+]
