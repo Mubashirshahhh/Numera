@@ -1,1 +1,62 @@
-/build
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Numera generated files
+output/
+outputs/
+media/
+tmp/
+cache/
+logs/
+
+# Manim
+media/
+Tex/
+*.log
+
+# Generated videos
+*.mp4
+*.gif
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+```
+
