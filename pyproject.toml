@@ -1,0 +1,17 @@
+[project]
+name = "numera"
+version = "0.1.0"
+description = "AI-powered mathematics visualization engine"
+
+dependencies = [
+    "sympy",
+    "manim",
+    "openai",
+    "anthropic",
+    "python-dotenv",
+    "numpy",
+    "matplotlib"
+]
+
+[project.scripts]
+numera = "numera.cli:main"
