@@ -155,17 +155,35 @@ Numera/
 
 # Development Workflow
 
-Numera was developed using a combination of traditional software engineering and AI-assisted development.
+Numera was built using an AI-assisted development workflow that combines symbolic mathematics with large language models.
 
-Development included:
+### OpenAI API
 
-- **OpenAI API** for LLM-powered mathematical reasoning and code generation within the application.
-- **OpenAI Codex** to help design and refine the architecture of the main application pipeline and core Python modules.
-- **Replit AI** to assist with debugging, identifying implementation issues, and improving development speed.
+The OpenAI API powers Numera's AI reasoning pipeline. It is responsible for:
 
-All architectural decisions, feature design, integration, and project direction were made by the project author.
+- Understanding mathematical prompts written in natural language.
+- Generating Manim animation code.
+- Repairing invalid generations through iterative refinement.
+- Producing mathematically structured outputs for the rendering pipeline.
 
----
+### OpenAI Codex
+
+OpenAI Codex was used during development to help architect the Python codebase, including:
+
+- Designing the overall project structure.
+- Organizing the CLI and pipeline architecture.
+- Refactoring modules into a maintainable package layout.
+- Improving code organization and implementation patterns.
+
+### Replit AI
+
+Replit AI was used as a development assistant to improve implementation quality by helping:
+
+- Debug Python exceptions.
+- Resolve dependency and package issues.
+- Fix rendering pipeline bugs.
+- Troubleshoot Docker and environment configuration.
+- Identify integration problems between SymPy, Manim, and the AI pipeline.
 
 # License
 
