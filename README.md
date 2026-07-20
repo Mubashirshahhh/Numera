@@ -1,24 +1,29 @@
 # Numera
 
-**Transform mathematics into beautiful AI-generated animations.**
+> **Transform mathematics into beautiful AI-generated animations.**
 
-Numera is an AI-powered mathematics visualization engine that converts mathematical expressions into animated visual explanations. It combines symbolic mathematics, large language models, and Manim to generate accurate, educational animations from natural language or mathematical equations.
+Numera is an AI-powered mathematics visualization engine that converts mathematical expressions and natural language into animated visual explanations. By combining symbolic mathematics, large language models, and Manim, Numera generates mathematically accurate educational animations through an automated AI pipeline.
+
+---
 
 ## Features
 
-* AI-powered mathematical reasoning
-* Automatic Manim animation generation
-* Symbolic mathematics using SymPy
-* Mathematical validation before rendering
-* Self-healing code generation pipeline
-* Docker-based secure rendering
-* Intelligent rendering fallback
-* SQLite job tracking and caching
-* Support for algebra, calculus, graphing, and many high-school mathematics topics
+- 🧠 AI-powered mathematical reasoning
+- 🎬 Automatic Manim animation generation
+- ➗ Symbolic mathematics using SymPy
+- ✅ Mathematical validation before rendering
+- 🔧 Self-healing code generation pipeline
+- 🐳 Secure Docker-based rendering
+- ⚡ Intelligent rendering fallback
+- 💾 SQLite job tracking and caching
+- 📈 Graphing support
+- 📚 Support for algebra, calculus, functions, derivatives, integrals, and many high-school mathematics topics
 
-## Example
+---
 
-Generate an animation directly from the terminal:
+## Example Usage
+
+Generate a graph:
 
 ```bash
 numera "Plot the quadratic equation x^2 - 4x + 3"
@@ -36,7 +41,9 @@ Integrate an expression:
 numera "Integrate x^3"
 ```
 
-## Installation
+---
+
+# Installation
 
 Clone the repository:
 
@@ -53,13 +60,13 @@ python -m venv .venv
 
 Activate it.
 
-Linux/macOS:
+### Linux / macOS
 
 ```bash
 source .venv/bin/activate
 ```
 
-Windows:
+### Windows
 
 ```bash
 .venv\Scripts\activate
@@ -71,30 +78,36 @@ Install Numera:
 pip install -e .
 ```
 
-Once published to PyPI:
+After the project is published:
 
 ```bash
 pip install numera
 ```
 
-## Requirements
+---
 
-* Python 3.11+
-* Docker
-* FFmpeg
-* LaTeX (recommended for best rendering quality)
+# Requirements
 
-## How it Works
+- Python 3.11+
+- Docker
+- FFmpeg
+- LaTeX (recommended for higher quality mathematical rendering)
 
-1. User submits a mathematical prompt or equation.
-2. Numera analyzes the mathematics using SymPy.
-3. AI generates optimized Manim code.
-4. Mathematical invariants are validated.
+---
+
+# How Numera Works
+
+1. The user submits a mathematical expression or natural language prompt.
+2. SymPy parses and validates the mathematics.
+3. The AI planner generates optimized Manim animation code.
+4. Mathematical invariants are checked for correctness.
 5. Invalid generations are automatically repaired.
 6. The animation is rendered securely inside Docker.
-7. The final video is returned to the user.
+7. The final MP4 animation is returned to the user.
 
-## Project Structure
+---
+
+# Project Structure
 
 ```
 Numera/
@@ -113,27 +126,77 @@ Numera/
 └── tests/
 ```
 
-## Roadmap
+---
 
-* Interactive CLI
-* Web interface
-* Additional mathematical domains
-* Improved AI planning
-* Faster rendering pipeline
-* Plugin architecture
-* PyPI release
+# Roadmap
 
-## License
+- Interactive CLI
+- Web application
+- AI-powered mathematical tutoring
+- Additional mathematical domains
+- Faster rendering pipeline
+- Plugin architecture
+- PyPI release
+- Cloud rendering support
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+---
 
-## Author
+# Technology Stack
 
-**Mubashir Shah**
+- Python
+- SymPy
+- Manim Community
+- OpenAI API
+- Docker
+- SQLite
+- FFmpeg
 
-GitHub: https://github.com/Mubashirshahhh
+---
 
-## Contributing
+# Development Workflow
 
-Contributions, feature requests, and bug reports are welcome. Please open an issue or submit a pull request to help improve Numera.
+Numera was developed using a combination of traditional software engineering and AI-assisted development.
 
+Development included:
+
+- **OpenAI API** for LLM-powered mathematical reasoning and code generation within the application.
+- **OpenAI Codex** to help design and refine the architecture of the main application pipeline and core Python modules.
+- **Replit AI** to assist with debugging, identifying implementation issues, and improving development speed.
+
+All architectural decisions, feature design, integration, and project direction were made by the project author.
+
+---
+
+# License
+
+Licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+---
+
+# Author
+
+## Mubashir Shah
+
+GitHub:
+https://github.com/Mubashirshahhh
+
+---
+
+# Contributing
+
+Contributions, feature requests, and bug reports are welcome.
+
+If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a Pull Request.
+
+Issues and suggestions are always appreciated.
+
+---
+
+## Vision
+
+Numera aims to make mathematics intuitive through AI-generated visual explanations. Rather than reading static equations, students can watch mathematics come to life through animations generated automatically from simple prompts.
