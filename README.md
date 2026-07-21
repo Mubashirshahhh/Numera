@@ -23,11 +23,7 @@ Numera is an AI-powered mathematics visualization engine that converts mathemati
 
 ## Example Usage
 
-Generate a graph:
 
-```bash
-numera "Plot the quadratic equation x^2 - 4x + 3"
-```
 
 Differentiate a function:
 
