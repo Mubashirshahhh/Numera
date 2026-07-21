@@ -40,7 +40,7 @@ Integrate an expression:
 The quadratic formula is
 
 $$
-x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+x^2 - 4x + 3
 $$
 
 <p align="center">
