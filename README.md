@@ -44,7 +44,7 @@ x^2 - 4x + 3
 $$
 
 <p align="center">
-  <img src="assets/Example.png" alt="Quadratic animation" width="700">
+  <img src="assets/Example.png" alt="Quadratic animation" width="300">
 </p>
 
 ---
