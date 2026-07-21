@@ -8,16 +8,16 @@ Numera is an AI-powered mathematics visualization engine that converts mathemati
 
 ## Features
 
-- 🧠 AI-powered mathematical reasoning
-- 🎬 Automatic Manim animation generation
-- ➗ Symbolic mathematics using SymPy
-- ✅ Mathematical validation before rendering
-- 🔧 Self-healing code generation pipeline
-- 🐳 Secure Docker-based rendering
-- ⚡ Intelligent rendering fallback
-- 💾 SQLite job tracking and caching
-- 📈 Graphing support
-- 📚 Support for algebra, calculus, functions, derivatives, integrals, and many high-school mathematics topics
+-  AI-powered mathematical reasoning
+-  Automatic Manim animation generation
+- Symbolic mathematics using SymPy
+-  Mathematical validation before rendering
+-  Self-healing code generation pipeline
+-  Secure Docker-based rendering
+-  Intelligent rendering fallback
+-  SQLite job tracking and caching
+-  Graphing support
+- Support for algebra, calculus, functions, derivatives, integrals, and many high-school mathematics topics
 
 ---
 
