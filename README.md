@@ -31,9 +31,16 @@ numera "Plot the quadratic equation x^2 - 4x + 3"
 
 Differentiate a function:
 
-```bash
-numera "Differentiate sin(x)"
-```
+
+$$
+\sin(x)
+$$
+
+
+<p align="center">
+  <img src="assets/Sin.png" alt="Sinx animation" width="300">
+</p>
+
 
 Integrate an expression:
 
