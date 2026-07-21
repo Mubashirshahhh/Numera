@@ -37,12 +37,16 @@ numera "Differentiate sin(x)"
 
 Integrate an expression:
 
-```bash
-numera "Integrate $$
-x^2 - 4x + 3
-$$ "
-```
-Example.png
+The quadratic formula is
+
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+
+<p align="center">
+  <img src="assets/Example.png" alt="Quadratic animation" width="700">
+</p>
+
 ---
 
 # Installation
