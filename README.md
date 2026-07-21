@@ -37,7 +37,7 @@ numera "Differentiate sin(x)"
 
 Integrate an expression:
 
-The quadratic formula is
+
 
 $$
 x^2 - 4x + 3
