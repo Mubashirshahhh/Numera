@@ -38,9 +38,11 @@ numera "Differentiate sin(x)"
 Integrate an expression:
 
 ```bash
-numera "Integrate x^3"
+numera "Integrate $$
+x^2 - 4x + 3
+$$ "
 ```
-
+Example.png
 ---
 
 # Installation
